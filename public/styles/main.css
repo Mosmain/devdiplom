@@ -29,16 +29,68 @@ header {
   height: 161px;
 }
 
-header div {
-  background-color: #2F2483;
-  width: 100%;
-  height: 100px;
-  position: relative;
-}
-
 header nav {
   height: 100px;
   -ms-flex-line-pack: center;
       align-content: center;
+}
+
+header .wrapper {
+  overflow: hidden;
+}
+
+header .wrapper .block__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 10px solid lightblue;
+  margin: 0 0 10px 0;
+}
+
+header .wrapper .block__column {
+  border: 10px solid darkcyan;
+}
+
+header .wrapper .block__item {
+  color: white;
+  text-align: center;
+}
+
+header .wrapper .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 35%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+header .wrapper .right .block__item {
+  display: inherit;
+  color: white;
+  width: 50%;
+  text-align: start;
+}
+
+header .wrapper .right .block__item span {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+header .wrapper .right .block__item p {
+  margin: 0;
+}
+
+header .wrapper .center {
+  width: 30%;
+}
+
+header .wrapper .left {
+  width: 35%;
 }
 /*# sourceMappingURL=main.css.map */

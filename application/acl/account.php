@@ -9,9 +9,10 @@ return [
 	],
 	'guest' => [
 		'register',
-		'login',
+		'login'
 	],
 	'admin' => [
-		//
+        'register',
+        'admin'
 	],
 ];

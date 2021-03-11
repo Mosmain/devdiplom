@@ -9,7 +9,6 @@
 <div class="container">
     <div class="row">
 
-
         <div class="header col-12">
             <p>Страница не найдена</p>
             <!-- <span>¯\_(ツ)_/¯</span> -->

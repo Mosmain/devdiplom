@@ -8,8 +8,8 @@
 	<li><a href="/account/login">Авторизация</a></li>
 </ul>
 
-<?php foreach ($news as $val): ?>
-	<h3><?php echo $val['title']; ?></h3>
-	<p><?php echo $val['description']; ?></p>
-	<hr>
-<?php endforeach; ?>
+<?php //foreach ($news as $val): ?>
+<!--	<h3>--><?php //echo $val['title']; ?><!--</h3>-->
+<!--	<p>--><?php //echo $val['description']; ?><!--</p>-->
+<!--	<hr>-->
+<?php //endforeach; ?>

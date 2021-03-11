@@ -33,8 +33,8 @@ class View {
 		http_response_code($code);
 		$path = 'application/views/errors/'.$code.'.php';
 		if (file_exists($path)) {
-			require $path;
-		}
+            require $path;
+        }
 		exit;
 	}
 

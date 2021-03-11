@@ -32,15 +32,41 @@
 
 	<header>
 		<div class="container-fluid">
-			<div class="container">
+			<div class="container wrapper">
 
-				<nav class="navbar">
-					<form class="form-inline my-2 my-lg-0">
-						<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-						<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-					</form>
-					<a class="navbar-brand" href="#">Navbar</a>
-				</nav>
+				<div class="block">
+					<div class="block__row">
+
+						<div class="block__column left">
+							<div class="block__item"><span>search form</span></div>
+						</div>
+
+						<div class="block__column center">
+							<div class="block__item"><span>logo</span></div>
+						</div>
+
+						<div class="block__column right">
+							<div class="block__item">
+								<span>icon</span>
+								<div class="nav__body">
+									<p><b>header</b></p>
+									<p>description</p>
+								</div>
+							</div>
+
+							<div class="block__item">
+								<span>icon</span>
+								<div class="nav__body">
+									<p><b>header</b></p>
+									<p>description</p>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+
 			</div>
 		</div>
 	</header>
