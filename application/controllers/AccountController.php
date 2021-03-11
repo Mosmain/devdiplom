@@ -14,4 +14,8 @@ class AccountController extends Controller {
 		$this->view->render('Регистрация');
 	}
 
+	public function adminAction() {
+		$this->view->render('Админ панель');
+	}
+
 }

@@ -34,5 +34,4 @@ class Db {
 		return $result->fetchColumn();
 	}
 
-
 }

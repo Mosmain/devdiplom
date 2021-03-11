@@ -1,0 +1,44 @@
+@font-face {
+  font-family: SFLite;
+  src: url("../fonts/SFProDisplayLight.ttf");
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: SFRegular;
+  src: url("../fonts/SFProDisplayRegular.ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: SFBold;
+  src: url("../fonts/SFProDisplayBold.ttf");
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+header {
+  background-image: url(/public/img/header.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 161px;
+}
+
+header div {
+  background-color: #2F2483;
+  width: 100%;
+  height: 100px;
+  position: relative;
+}
+
+header nav {
+  height: 100px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+/*# sourceMappingURL=main.css.map */

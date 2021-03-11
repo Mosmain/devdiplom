@@ -1,0 +1,27 @@
+$font-light: SFLite;
+$font-regular: SFRegular;
+$font-bold: SFBold;
+
+@font-face {
+	font-family: $font-light;
+	src: url('../fonts/SFProDisplayLight.ttf');
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: $font-regular;
+    src: url('../fonts/SFProDisplayRegular.ttf');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: $font-bold;
+    src: url('../fonts/SFProDisplayBold.ttf');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+}
